@@ -1,0 +1,16 @@
+{
+    "server": false,
+    "bind_addr": "X.X.X.X",
+    "ports": {
+        "dns": 53
+    },
+    "ui": true,
+    "client_addr": "0.0.0.0",
+    "datacenter": "virtualbox-dc",
+    "data_dir": "/var/consul",
+    "encrypt": "aPjH2jtLILpHRnvmdW8p0g==",
+    "log_level": "DEBUG",
+    "enable_syslog": true,
+    "start_join": ["10.246.0.101"],
+    "recursors": ["8.8.8.8", "8.8.4.4"]
+}

@@ -1,0 +1,14 @@
+{
+    "bootstrap": true,
+    "server": true,
+    "bind_addr": "10.246.0.101",
+    "ports": {
+        "dns": 53
+    },
+    "datacenter": "virtualbox-dc",
+    "data_dir": "/var/consul",
+    "encrypt": "aPjH2jtLILpHRnvmdW8p0g==",
+    "log_level": "INFO",
+    "enable_syslog": true,
+    "recursors": ["8.8.8.8", "8.8.4.4"]
+}
