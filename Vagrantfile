@@ -3,12 +3,12 @@
 
 $all_docker_install = true
 $server_num_instances = 1
-$client_num_instances = 1
+$client_num_instances = 2
 $enable_serial_logging = false
 $forwarded_ports = {}
 $vm_gui = false
-$vm_memory = 6154
-$vm_cpus = 4
+$vm_memory = 1024
+$vm_cpus = 2
 $vb_cpuexecutioncap = 100
 $shared_folders = {}
 

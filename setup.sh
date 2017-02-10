@@ -30,6 +30,11 @@ let client_1="$1+1"
 for i in `seq 1 $srv_nbr`;
 do
      vagrant ssh server-node-0$i -c "sudo start nomad"
+     vagrant ssh server-node-0$i -c "sudo bash -c 'cat << EOF > /etc/resolv.conf
+nameserver 127.0.0.1
+search service.consul
+EOF
+'"
 done
 sleep 5
 vagrant ssh server-node-01 -c "sudo consul members"
